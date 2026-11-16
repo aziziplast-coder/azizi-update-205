@@ -1,28 +1,29 @@
-# به‌روزرسانی فروشگاه لاراول — نسخه ۱٫۱۰٫۲۰۵
+# به‌روزرسانی فروشگاه لاراول — نسخه ۱٫۱۰٫۲۰۶
 
-این مخزن فایل به‌روزرسانی **store-laravel-1.10.205** را برای دانلود از GitHub فراهم می‌کند.
+این مخزن فایل به‌روزرسانی **store-laravel-1.10.206** را برای دانلود از GitHub فراهم می‌کند.
 
 ## دانلود
 
-- فایل کامل: [`store-laravel-1.10.205.zip`](./store-laravel-1.10.205.zip) (حدود ۱۸ مگابایت)
+- فایل کامل: [`store-laravel-1.10.206.zip`](./store-laravel-1.10.206.zip) (حدود ۱۸ مگابایت)
 - در صورت کند بودن دانلود، می‌توانید دو بخش را بگیرید و کنار هم بچسبانید:
-  - [`store-laravel-1.10.205.zip.part1`](./store-laravel-1.10.205.zip.part1)
-  - [`store-laravel-1.10.205.zip.part2`](./store-laravel-1.10.205.zip.part2)
+  - [`store-laravel-1.10.206.zip.part1`](./store-laravel-1.10.206.zip.part1)
+  - [`store-laravel-1.10.206.zip.part2`](./store-laravel-1.10.206.zip.part2)
 
 اتصال دو بخش (در ترمینال):
 
 ```bash
-cat store-laravel-1.10.205.zip.part1 store-laravel-1.10.205.zip.part2 > store-laravel-1.10.205.zip
+cat store-laravel-1.10.206.zip.part1 store-laravel-1.10.206.zip.part2 > store-laravel-1.10.206.zip
 ```
 
 ## نصب به‌روزرسانی
 
-1. فایل `store-laravel-1.10.205.zip` را دانلود کنید.
+1. فایل `store-laravel-1.10.206.zip` را دانلود کنید.
 2. وارد پنل ادمین شوید.
 3. به مسیر **ابزار سایت → به‌روزرسانی** بروید.
 4. فایل zip را آپلود و نصب کنید.
+5. پس از نصب، صفحه `/walkin` را hard-refresh کنید یا کش PWA را پاک کنید.
 
 ## تغییرات این نسخه
 
-- نسخه: **1.10.205**
-- رفع مشکل اسکن بلوتوث (bluetooth scan fix)
+- نسخه: **1.10.206**
+- رفع مشکل داک اسکنر بلوتوث (Bluetooth scanner dock fix)
